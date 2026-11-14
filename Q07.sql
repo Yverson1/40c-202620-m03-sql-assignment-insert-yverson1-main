@@ -1,2 +1,2 @@
-delete from payment
-where payment_date = '2023-05-05';
+insert into payment (payment_date)
+values ('2023-05-05');
