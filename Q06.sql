@@ -1,4 +1,4 @@
-Update rental
-set return_date = '2023-05-08'
-Where return_date is null;
-
+UPDATE address
+SET address = '122 North Pole ln',
+    last_update = CURRENT_DATE()
+WHERE address_id = 606;
