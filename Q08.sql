@@ -1,2 +1,2 @@
-delete from rental
-where rental_id = 16050;
+Delete from rental
+where rental_id = 16050; 
