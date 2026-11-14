@@ -1,5 +1,5 @@
 Insert into payment (customer_id, staff_id, rental_id, amount, payment_date, last_update)
-Values (
+VALUES (
     (Select customer_id from customer where first_name = 'Rodney' and last_name = 'Moeller'),
      1,
     16050,
