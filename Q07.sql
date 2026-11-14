@@ -1,2 +1,2 @@
 delete from payment
-where rental_id = 16050;
+where payment_date = '2023-05-05';

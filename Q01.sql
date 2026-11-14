@@ -1,3 +1,4 @@
+
 Insert into rental (rental_date, inventory_id, customer_id, staff_id, last_update)
 Select 
      '2023-05-05',
@@ -11,5 +12,3 @@ left join rental r on i.inventory_id = r.inventory_id and r.return_date is null
 where f.title = 'Panic Club'
   and i.store_id = 1
   and r.rental_id is null;
-
-
