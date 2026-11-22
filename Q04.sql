@@ -1,5 +1,5 @@
-Insert into customer (store_id, first_name, last_name, email, address_id, active, create_date, last_update)
-Values (
+insert into customer (store_id, first_name, last_name, email, address_id, active, create_date, last_update)
+values (
     2,
     'Santa',
     'Claus',

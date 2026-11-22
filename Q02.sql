@@ -1,5 +1,5 @@
 Insert into payment (customer_id, staff_id, rental_id, amount, payment_date, last_update)
-VALUES (
+values (
     409,
      1,
     16050,

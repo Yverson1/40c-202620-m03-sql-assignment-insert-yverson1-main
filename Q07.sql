@@ -1,2 +1,2 @@
-DELETE FROM payment
-WHERE rental_id = 16050;
+delete from payment
+where rental_id = 16050;
