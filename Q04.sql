@@ -9,5 +9,8 @@ values (
     '2023-05-05',
     '2023-05-05'
 );
+select *
+from film
+ where language_id != 1;
 
 
