@@ -8,8 +8,5 @@ values ('112 N Pole Ln',
           '2023-05-05'
           
     );
-select *
-from rental
-where return_date is null
-  and customer_id =466;
+
   

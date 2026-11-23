@@ -7,7 +7,5 @@ values (
     '2023-05-05',
     '2023-05-05'
  );
-select *
-from rental
-where return_date is null;
+
 
